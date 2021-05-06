@@ -48,7 +48,7 @@ function draw() {
     lastFed = data.val();
   })
 
-  fill("black");
+  fill(255,255,254);
   textSize(20);
   if (lastFed >= 12) {
     text("Last Feed: " + lastFed %12 + "PM", 310, 35);

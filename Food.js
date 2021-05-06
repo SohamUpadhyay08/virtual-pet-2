@@ -12,7 +12,7 @@ class Food{
         this.lastFed=lastFed;
     }
 
-    updateFoodStock(fooodStock){
+    updateFoodStock(foodStock){
      this.foodStock = foodStock
     }
 
